@@ -10,7 +10,7 @@ function SendResult() {
     ClearResult(false);
 
     var isCorrect = true;
-    var answers = [1, 2, 3, 1, 2, 3, 1, 2, 3, 1];
+    var answers = [1, 3, 2, 2, 2, 3, 3, 2, 3, 1];
 
     for (var i = 1; i <= 10; i++) {
         var qName = "question" + i.toString();

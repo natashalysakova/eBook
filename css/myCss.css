@@ -9,3 +9,7 @@
 .with-margin{
     margin-top: 20px;
 }
+
+.form-horizontal .control-label{
+    text-align: left;
+}
