@@ -1,0 +1,35 @@
+<div class="panel panel-primary" id="car">
+    <div class="panel-heading">Задача амортизації</div>
+    <div class="panel-body text-justify">
+        Задача амортизації виглядає наступним чином: мається якесь майно. На його утримання власник сплачує
+        амортизаційні відчислення. С кожним роком сума, за яку можна продати це майно зменшується, бо майно
+        стає старішим. Питання в задачі стає таке: в який рік найвигідніше продати це майно, щоб витратити
+        на покупку нового та утримання старого найменше коштів. Нехай, R- ціна нового майна, C_i- кількість
+        амортизаційних відчислень за майно віком i, S_i- ціна продажу майна віком i без купівлі нового, t_i-
+        ціна продажу майна віком i за умови купівлі нового, Z_1- початковий вік майна, n- кількість років
+        для прийняття рішення.<br>
+        Тоді цільова функція задачі буде дорівнювати:<br>
+        F_i (Z_1 )=min⁡〖(-t_z+R+C_1+F_(i+1) (1)),(C_(z+1)+F_(i+1) (Z+1))〗<br>
+        При цьому F_i (Z_n )= -S_i<br>
+        Таким чином, можна отримати відповідь на питання коли краще продати майно, та вигідніше купити нове.
+        <hr/>
+        <div class="col-md-12 text-center">
+            <a class="btn btn-primary" data-toggle="collapse" href="#video6"
+               aria-expanded="false"
+               aria-controls="video6">
+                Відео-лекція
+            </a>
+
+            <div class="collapse" id="video6">
+                <div class="well">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/yiJM7tcGnFs?list=PLUfHxBkkFMScK6mOOWp5s6LgbzmtfwmYQ"
+                                frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

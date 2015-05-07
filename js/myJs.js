@@ -2,7 +2,24 @@
  * Created by hatassska on 12.04.2015.
  */
 function ShowPage(pageTitle) {
-    $('#body').load(pageTitle + '.html');
+    $('#body').load(pageTitle + '.html', function() {
+        if(pageTitle=="examples")
+        {
+            ShowExample(1);
+        }
+        if(pageTitle == "theory")
+        {
+            ShowTheory(1);
+        }
+    });
+}
+
+function ShowTheory(teoryId) {
+    $('#theoryText').load('t' + teoryId + '.html');
+}
+
+function ShowExample(exampleId) {
+    $('#examplesText').load('e' + exampleId + '.html');
 }
 
 function SendResult() {
